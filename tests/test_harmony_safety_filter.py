@@ -6,7 +6,7 @@ from unittest.mock import AsyncMock, MagicMock
 import pytest
 
 from entity.plugins.context import PluginContext
-from entity.plugins.gpt_oss.harmony_safety_filter import (
+from entity_plugin_gpt_oss.harmony_safety_filter import (
     HarmonySafetyFilterPlugin,
     SafetyCategory,
     SafetyFilterResult,

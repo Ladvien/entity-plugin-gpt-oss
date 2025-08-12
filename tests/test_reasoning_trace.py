@@ -6,7 +6,7 @@ from unittest.mock import AsyncMock, MagicMock, patch
 import pytest
 
 from entity.plugins.context import PluginContext
-from entity.plugins.gpt_oss.reasoning_trace import (
+from entity_plugin_gpt_oss.reasoning_trace import (
     ReasoningLevel,
     ReasoningTrace,
     ReasoningTracePlugin,
